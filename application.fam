@@ -1,0 +1,10 @@
+App(
+    appid="ninebot_tuner",
+    name="Ninebot Tuner",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ninebot_tuner_app",
+    requires=["bt"],
+    stack_size=2 * 1024,
+    fap_category="Bluetooth",
+    fap_icon="ninebot_tuner_icon.png",
+)
